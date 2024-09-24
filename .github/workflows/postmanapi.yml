@@ -14,7 +14,9 @@ jobs:
       - name: "Install newman reporter"
         run: "npm install -g newman-reporter-html"
       - name: "Run tests"
-        run: "newman run ValentinoArtisanCoffeeHouseAPI.postman_collection.json -r html"
+        run: "newman run ValentinoArtisanCoffeeHouseAPI.postman_collection.json"
+      - name: Publish Test Summary Results
+        run: npx github-actions-ctrf newman/*.json
       - name: Publish report
         uses: actions/upload-artifact@v4
         if: always()
