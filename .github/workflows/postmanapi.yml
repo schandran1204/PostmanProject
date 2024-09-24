@@ -20,5 +20,5 @@ jobs:
         if: always()
         with:
           name: postman-report
-          path: newman/runreport1.html
+          path: newman/
           retention-days: 30
