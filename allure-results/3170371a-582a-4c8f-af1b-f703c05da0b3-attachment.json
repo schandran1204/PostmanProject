@@ -1,0 +1,10 @@
+{
+    "Accept": "application/json",
+    "x-api-key": "ENTER A VALID API KEY",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "a381941a-8d6f-45dc-acba-5ea27b19950a",
+    "Host": "valentinos-coffee.herokuapp.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

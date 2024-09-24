@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "allure-commandline": "^2.30.0",
+    "newman-reporter-allure": "^3.0.1"
+  }
+}
